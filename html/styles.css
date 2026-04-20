@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=DynaPuff:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Petit+Formal+Script&family=Shadows+Into+Light+Two&family=Story+Script&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(150, 150, 150);
+  display: flex;
+  justify-content: space-between; /* Separa el título de la lista */
+  align-items: center;            /* Centra verticalmente ambos elementos */
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+@keyframes arcoiris {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.titulo {
+  background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: arcoiris 5s linear infinite;
+  font-family: "Petit Formal Script", cursive;
+  text-align: center;
+}
+.encabezado{
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url(/image/Banner-barranquilla5.jpg);
+    font-size: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.centro-malecon{
+  display: flex; 
+  
+  
+}
+.titulo-malecon{
+  background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: arcoiris 5s linear infinite;
+  font-family: "Petit Formal Script", cursive;
+  margin: 0;
+}
+.malecon-clase{
+  background-color: rgb(150, 150, 150);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+} 
+
+.malecon-clase h2 {
+  padding: 20px; 
+  font-size: 24px; 
+}
+
+.malecon-clase p {
+  padding: 20px; 
+  font-size: 18px; 
+  line-height: 1.6; 
+  color: #333; 
+  
+}
+.malecon-img-segundaria{
+  width: 400px;  
+}
+
+
+.malecon-img-principal{
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+ background-color: rgb(150, 150, 150);
+}
+
+.imagen{
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+
+ul {
+  display: flex;                 
+  list-style: none;              
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 20px;             
+}
+header ul li a {
+  text-decoration: none;         
+  color: #333;                 
+  font-weight: bold;
+}
+
+header ul li a:hover {
+  color: #000000;
+}
+
+
+
+
+
+
